@@ -3,11 +3,11 @@
 ## Overview of Project
 
 ### Purpose
-The election commission has requested the election result analsysis to be extended to include details on
+The election commission has requested the election result analysis to be extended to include details on
 candidate results and details about the voter turnout in each county.
 
 The Election audit will need to provide a summary regarding the votes per candidate along with providing a result
-of the winning candidate but also provide an analysis on votes provided by each county including thhe following:
+of the winning candidate but also provide an analysis on votes provided by each county including the following:
  - The total number of votes for each county
  - The county with the highest number of votes
  - The percentage of votes each county received out of the total votes for the state
@@ -39,9 +39,9 @@ After reviewing the [analysis of the election data](/analysis/election_analysis.
 	![Winning Candidate](/analysis/winning_candidate.PNG)
 	
 ## Election Audit Summary
-The script can be adjusted to cater for the entire election process  including the county, state presedential and house elections rather than only catering for the county elections.
-This would result in the voting results for the entire election process being more accurate and the results process being more effecient. 
+The script can be adjusted to cater for the entire election process  including the county, state presidential and house elections rather than only catering for the county elections.
+This would result in the voting results for the entire election process being more accurate and the results process being more efficient. 
 
-In order to cater for different types of elections the following adjustements could be made to the script:
+In order to cater for different types of elections the following adjustments could be made to the script:
  - The script could be adjusted to take the votes for each county within a state in order to determine the winning party/candidate for each state
- - The script could be further adjusted to apply the criterea required to determine the winer of the presedential election based on the electoral college system
+ - The script could be further adjusted to apply the criteria required to determine the winner of the presidential election based on the electoral college system
