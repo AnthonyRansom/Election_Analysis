@@ -7,10 +7,10 @@ The election commission has requested the election result analsysis to be extend
 candidate results and details about the voter turnout in each county.
 
 The Election audit will need to provide a summary regarding the votes per candidate along with providing a result
-with the winning candidate but also provide an analysis on votes provided by each county including thhe following:
+of the winning candidate but also provide an analysis on votes provided by each county including thhe following:
  - The total number of votes for each county
  - The county with the highest number of votes
- - The percentage of votes for each county out of the total count
+ - The percentage of votes each county received out of the total votes for the state
 
 ## Election Audit Results
 After reviewing the [analysis of the election data](/analysis/election_analysis.txt) the following outcomes have been determined:
@@ -31,11 +31,9 @@ After reviewing the [analysis of the election data](/analysis/election_analysis.
 ![analysis of the election data](/Resources/election_analysis.PNG)
 	
 ## Election Audit Summary
-The analysis script is not limited to analysisng data for congressionsal elections and can be modified slightly 
-for other elections such as senate, federal or even presidential elections.
-The current sctipy is limited to analysis data at a congressional level but can be modified to accomodate
-not just per county votes but also determine the electoral college for the presidential elections.
+The script can be adjusted to cater for the entire election process  including the county, state presedential and house elections rather than only catering for the county elections.
+This would result in the voting results for the entire election process being more accurate and the results process being more effecient. 
 
-In order to cater for different type of election the following adjustements would need to be made to the script:
- - The script would need to be adjusted to analyize votes made for each candidate and which party the candidate is aligned with
- - The script would be modified to take the winning candidate from each county in a state and determine the winning party by analysing the party with the majority of winnning candidates that represent that party
+In order to cater for different types of elections the following adjustements could be made to the script:
+ - The script could be adjusted to take the votes for each county within a state in order to determine the winning party/candidate for each state
+ - The script could be further adjusted to apply the criterea required to determine the winer of the presedential election based on the electoral college system
