@@ -23,17 +23,20 @@ After reviewing the [analysis of the election data](/analysis/election_analysis.
 	- Arapahoe: 6.7% (24,801 votes)
 	
 	![Per County Vote Count](/analysis/County_Votes.PNG)
- - The County with the largest number of votes is Denver with a total of 306,055 votes  
+ - The County with the largest number of votes is Denver with a total of 306,055 votes
+ 
 	![County with the largest turnout](/analysis/largest_county_turnout.PNG)
  - The total vote count for each candidate is as follows:
 	- Charles Casper Stockham: 23.0% (85,213 votes)
 	- Diana DeGette: 73.8% (272,892 votes)
-	- Raymon Anthony Doane: 3.1% (11,606 votes)  
-![Candidate Vote Count](/analysis/candidate_votes.PNG)
+	- Raymon Anthony Doane: 3.1% (11,606 votes)
+	
+	![Candidate Vote Count](/analysis/candidate_votes.PNG)
  - The results show Diana DeGette won the election with the following results:
 	- Winning Vote Count: 272,892
-	- Winning Percentage: 73.8%  
-![Winning Candidate](/analysis/winning_candidate.PNG)
+	- Winning Percentage: 73.8%
+	
+	![Winning Candidate](/analysis/winning_candidate.PNG)
 	
 ## Election Audit Summary
 The script can be adjusted to cater for the entire election process  including the county, state presedential and house elections rather than only catering for the county elections.
